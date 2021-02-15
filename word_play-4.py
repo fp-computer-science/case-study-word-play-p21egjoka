@@ -1,6 +1,6 @@
 # Author: Emanuel Mark Gjoka (AMDG) 2/12/2021
 
-def avoid(letters):
+def aim(letters):
     counter = 0
     with open('words.txt') as lfile5:
         for word in lfile5.readlines():
@@ -13,4 +13,4 @@ def avoid(letters):
 
 lttrs = input('Enter a string containing only letters. ')
 
-print(avoid(lttrs))
+print(aim(lttrs))
