@@ -1,11 +1,16 @@
 # Author: Emanuel Mark Gjoka (AMDG) 2/12/2021
 
 def avoid(letter):
-    with open('words.txt') as lfile4, open('forbidden_words', 'w') as sfile3:
+    counter = 0
+    with open('words.txt') as lfile4:
         for word in lfile4.readlines():
-            if str(letter) in word.strip():
-                sfile3.write(word)
+            for letter in word:
+                if str(letter) in word.strip():
+                    counter += 0
+                else:
+                    counter += 1
+    return
 
-lttr = input('What is your least favorite letter in the Latin Alphabet? ')
+lttrs = input('Enter a string containing only letters. ')
 
-print(avoid(lttr))
+print(avoid(lttrs))
