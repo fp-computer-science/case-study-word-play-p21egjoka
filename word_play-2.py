@@ -1,4 +1,4 @@
-# Author: Emanuel Mark Gjoka (AMDG) 2/12/2021
+# Author: Emanuel Mark Gjoka (AMDG) 3/4/2021
 
 with open('greater_than_20.txt') as lfile2, open('words_without_e.txt', 'w') as sfile2:
     for word in lfile2.readlines():

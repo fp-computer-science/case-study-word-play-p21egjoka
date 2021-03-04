@@ -1,4 +1,4 @@
-# Author: Emanuel Mark Gjoka (AMDG) 2/12/2021
+# Author: Emanuel Mark Gjoka (AMDG) 3/4/2021
 
 def is_abecedarian(letters):
     nrgnlst = list(letters.splice())
